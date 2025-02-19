@@ -9,10 +9,10 @@ node_value = "X01"
 broker_address = "10.40.65.101"  # IP address from arguments
 port = 1883  # Default MQTT port
 topic = "uart1"  # MQTT topic
-td = [1,0.5,0.2,0.1,0.01]
-scale = [100,50,20,10,1 ]
+td = [0.01,0.1,0.2,0.5,1]
+scale = [1,10,20,50,100]
 num_runs = 5
-trans = [1,2,5,10,100]
+trans = [100,10,5,2,1]
 # Global variables
 m = 1  # Row counter
 message_count = 0  # Total message counter
